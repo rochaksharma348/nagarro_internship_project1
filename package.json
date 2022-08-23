@@ -1,0 +1,26 @@
+{
+  "name": "nagarro_internship_project_1",
+  "version": "1.0.0",
+  "description": "twitter clone",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon bin/www ./app.js -L"
+  },
+  "author": "Rochak Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "middleware": "^1.0.0",
+    "mongoose": "^6.5.0",
+    "nodemon": "^2.0.19",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.1.2",
+    "socket.io": "^4.5.1"
+  }
+}

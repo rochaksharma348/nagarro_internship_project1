@@ -1,0 +1,16 @@
+<div class="mb-3 text-center">
+    <%if(success != null && success.length){%>
+        <div class="alert alert-success alert-dismissible">
+            <a class="btn-close" data-bs-dismiss="alert"></a>
+            <strong>Success!</strong> <%= success %>
+          </div>
+    <%}%>
+  </div>
+  <div class="mb-3 text-center">
+    <%if(error != null && error.length){%>
+        <div class="alert alert-danger alert-dismissible">
+            <a href="" class="btn-close" data-bs-dismiss="alert"></a>
+            <strong>Error!</strong> <%= error %>
+          </div>
+    <%}%>
+</div>
